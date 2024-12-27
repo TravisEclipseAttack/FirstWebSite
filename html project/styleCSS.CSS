@@ -1,0 +1,328 @@
+html{
+    scroll-behavior: smooth; 
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #28263a;
+    font-family: "Lato", sans-serif;
+    background-image: linear-gradient(to right, #2a2a2c, #313849, #27274d);
+}
+
+.topnav {
+    background-color: linear-gradient(to right, #2a2a2c, #313849, #27274d);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.topnav a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    /* background-color: #2d56ad;  */
+    color: rgb(255, 255, 255);
+}
+
+.ikon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: auto;
+    display: block;
+} 
+
+.text{
+    text-align: left;
+    font-size: 30px;
+    color: white;
+}
+
+.DotaPhoto{
+    width: 450px;
+    height: 550px;
+    margin-left: auto;
+    display: block;
+    padding: 0;
+    justify-content: end;
+    
+}
+
+.bebra{
+    margin: 20px 50px;
+    min-width: 30px;
+    color: white;
+    
+    margin-top: 131px;
+}
+
+bebra div .font{
+    font-size: 50px;
+}
+
+bebra h1{
+    font-size: 80px;
+}
+
+.slardar_text{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight:bold;
+    font-size: x-large;
+    writing-mode:vertical-lr;
+    margin-top: 500px;
+}
+
+.hero_ikon{
+    width: 23px;
+}
+.flex{
+    display: flex;
+}
+
+.bebra2{
+    font-size: 30px;
+    color:#fff9f9;
+    width: 45vw;
+}
+
+.attack{
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: Century Gothic;
+}
+
+.Fight{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.dicker{
+    margin-bottom: 150px; 
+    max-height: 100px;
+    margin-left: 80px;
+    position: absolute;
+    z-index: -1;
+    right: 30px;
+   
+} 
+
+.bebra h1{
+    font-size: 70px;
+    /* background-image: linear-gradient(to right, #E0F8F7, #585858, #fff); */
+
+    /* color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; */
+}
+
+.Ikon_damage{
+    width: 23px;
+}
+
+.skills{
+    font-size: 30px;
+    margin-top: 35px;
+}
+.skillls{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.absolute{
+    background-color: #27274d;
+    height: 30vh;
+    margin-top: 50px;
+    z-index: 1;
+}
+.absolute1{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.atriduti-grid-1{
+    border: 2px solid black;
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+.atriduti1 img{
+    width: 50px;
+    height: 50px;
+}
+.atriduti1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.atriduti2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.yandex_market{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 30vh;
+    padding: 4
+    0px;
+
+}
+.polosachka{
+    width: 100px;
+    background-color: #ffffff;
+    height: 8px;
+    
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-start{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.pokazateli-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+}
+.aspects{
+    /* margin-top: 40px; */
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.SECTION1111{
+    width: 100%;
+    height: 500px;
+    background-color:black;
+}
+.first_aspect{
+    color:white;
+    font-size: 35px;
+    padding: 0;
+    position: absolute;
+   
+}
+.second_aspect{
+    font-size: 30px;
+    color:white;
+    padding: 0;
+}
+
+.havaval{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.queue1{
+    width: 450px;
+    height: 35px;
+    background-color: rgb(242, 138, 41);
+    
+}
+.queue2{
+    width: 450px;
+    height: 35px;
+    background-color: rgb(127, 4, 41);
+}
+.desc_first_aspect{
+    font-size: 17.5px;
+    color: white;
+    /* background-color: rgb(60, 60, 83); */
+}
+.xzxzxzxz{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    background-color: rgb(44, 44, 61); 
+}
+.bghjudfsfrt{
+    font-size: 17.5px;
+    /* background-color: rgb(25, 25, 35); */
+    margin-top: 5px;
+}
+.vtygjhu{
+    margin-top: 10px;
+}
+.eirughtiuwertugergthui{
+    background-color: rgb(25, 25, 35);
+}
+
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.video-wrapper {
+    position: relative;
+    width: 640px;
+    height: 360px;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.video.active {
+    z-index: 10;
+    opacity: 1;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.skiiiiiiiiiiils{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.skils-video{
+    width: 50vw;
+}
+.skils-text{
+    /* background-color: #f2f2f2; */
+    width: 640px;
+    margin-top: 20px;
+}
+.absolute2{
+    display: flex;
+    justify-content: center;
+}
